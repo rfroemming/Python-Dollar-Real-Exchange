@@ -252,8 +252,8 @@ def CheckChange():
 def Sendmail(subject,email_text):
     smtp_server = "smtp.gmail.com"
     port = 587  # For starttls
-    email = "froemming@gmail.com"
-    password = "pnxnuclzljykzmln"
+    email = "### Your Email###"
+    password = "### Your Password ###"
 
     # Create a secure SSL context
     context = ssl.create_default_context()
